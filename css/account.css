@@ -1,0 +1,46 @@
+.delete_part
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.del_btn
+{
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;    
+}
+
+.del_btn:hover
+{
+    color: white;
+    background-color: red;
+    border: 1px solid white;
+}
+
+.more_btn
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: green;
+    border: 1px solid green;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;  
+    margin-right: 20px;
+}
+
+.more_btn:hover
+{
+    color: white;
+    background-color: green;
+    border: 1px solid white;
+}
